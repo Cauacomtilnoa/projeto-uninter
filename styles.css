@@ -1,0 +1,137 @@
+/* Reseta estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #151515;
+    display: flex; 
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+/* geral e sobre mim */
+
+body {
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #282727;
+}
+
+nav ul a li {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+main {
+    margin: 75px auto 0 auto;
+    min-width: 70%;
+    max-width: 80%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px;
+    background-color: rgb(247, 251, 255);
+    
+}
+
+main p {
+    margin: 15px 10px;
+    font-weight: 500;
+    font-size: 19px;
+    text-shadow: black 0px 0px 1px;
+}
+
+#titulo {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+    border-bottom: black 5px solid;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto auto;
+    text-align: justify;
+}
+
+/* Pagina formacao */
+
+.listaFormacao {
+    list-style-position: inside;
+}
+
+.conteudo h3 {
+    font-size: 1.3rem;
+}
+
+.listaFormacao li {
+    font-size: 23px;
+    margin: 40px 0;
+}
+
+/* Pagina Portfolio */
+
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item h3 {
+    margin-top: 0;
+}
+
+/* Página do formulário de contato */
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato-form label {
+    font-weight: bold;
+}
+
+.contato-form input,
+.contato-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contato-form button {
+    background-color: #151515;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contato-form button:hover {
+    background-color: #282727;
+}
+
+button[type="submit"] {
+    margin-bottom: 20px;
+}

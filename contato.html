@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Início</li>
+                </a>
+                <a href="formacao.html">
+                    <li>Formação</li>
+                </a>
+                <a href="portfolio.html">
+                    <li>Portfólio</li>
+                </a>
+                <a href="contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="conteudo">
+            <h2 id="titulo">Contato</h2>
+            <p style="text-align: center;">Quer falar comigo ? Me mande uma mensagem!!</p>
+            <form class="contato-form" action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
